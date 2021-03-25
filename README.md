@@ -1,1 +1,1 @@
-# Computer Science Labs written in java
+# computer science labs written in java
