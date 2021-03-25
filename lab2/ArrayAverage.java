@@ -1,0 +1,23 @@
+public class ArrayAverage
+{
+   public static void main(String[] args)
+   {
+      int[] data = {2, 34, 57, 31, 5, 79, 88, 62, 98, 53, 42};
+      
+      //-----------Start below here. To do: approximate lines of code = 4
+      // 1. set total to zero ; Hint: use a double 
+      int total = 0;
+      
+      //2. use a for loop to add up all the integers in data. Recall we know the length of an array .length
+      for (int i = 0; i < data.length; i++)
+		total+=data[i];
+      
+      
+      //3. computer the average
+      float average =(float) total/data.length;
+      //-----------------End here. Please do not remove this comment. Reminder: no changes outside the todo regions.
+      System.out.printf("Average = %.2f\n", average) ;
+  	  System.out.println("EXPECTED:") ;
+  	  System.out.println("Average = 50.09") ;
+   }
+}
